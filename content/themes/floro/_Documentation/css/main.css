@@ -1,0 +1,76 @@
+body{ font-family:Verdana, Geneva, sans-serif}
+*{ text-decoration: none;}
+*[class*='fa-']:before{ font-family: 'FontAwesome' !important;}
+
+
+/*General*/
+strong{ font-weight:bold}
+.clear{ clear:both}
+p{ margin-bottom:20px; font-size:14px; color:#343434; line-height:22px}
+
+.newfeature{ position: relative;}
+.newfeature:after{ position:absolute; color: #fff; font-size: 10px; background: #f00; content:'NEW'; line-height: 10px; padding: 3px; right: 0; }
+li.newfeature:after{ top:13px; right:13px;}
+h2.newfeature:after, h3.newfeature:after{ top:23px; right:23px;}
+
+/*Titles*/
+h1{font-size:16px;}
+h2{ font-size:28px; margin-bottom:45px; padding:15px 20px; background-color:#404040; color:#FFFFFF}
+h3{ font-size:25px; margin-bottom:33px; padding:15px 20px; background-color:#909090; color:#FFFFFF}
+h2,h3{ transition:all 1.5s; -webkit-transition:all 1.5s; border:0;}
+
+
+/*separators*/
+.divider{ width:100%; margin:60px 0 60px 0; border-bottom:1px solid #ededed}
+.dividerSection{ width:100%; margin:60px 0; border-bottom:1px solid #E8E8E8}
+.syntaxhighlighter{ padding-bottom:20px!important}
+
+
+/*Use for code*/
+.prettyid{ color:#880000}
+code{border: 1px dashed #BFBFBF; font-family: Consolas,"Courier New",Courier,monospace; line-height: 20px; padding: 0 5px;}
+
+
+/*Content*/
+#wrapper{float: left;width: 100%; background:#404040; line-height:normal}
+#wrapper .innertube{ padding:50px 50px; font-size:12px; background:#FFF;}
+#contentcolumn{margin-left: 280px; }
+
+/*lists*/
+.block ol{ list-style: decimal; list-style-position:inside;}
+.block ul{ list-style: disc; list-style-position:inside;}
+.block ol li, .block ul li{ line-height: 32px; }
+
+/*links*/
+.block a{ text-decoration: underline; color:#970000;}
+.block a:hover{ color:#3d0000;}
+
+
+/*Sidebar*/
+#leftcolumn{ float: left; height: 100%; position: fixed; width: 280px; z-index: 1;}
+#menuLogo{ text-align: center; height: 100px; padding-top: 30px;}
+
+#leftcolumn .menucont{ border-bottom: 100px solid transparent; border-top: 130px solid transparent; margin-top: -130px; height: 100%; overflow: auto; box-sizing:border-box; -moz-box-sizing:border-box;}
+#menulist {border-top:1px #545454 solid}
+#menulist li{position:relative; border-bottom:1px #545454 solid;  transition:all 0.3s; -webkit-transition:all 0.3s;}
+#menulist > li a:after{content:">"; font-size:12px; color:#b3b3b3; float: right; }
+#menulist a{ font-size:12px; text-decoration:none; color:#b3b3b3; display:block; padding:15px 15px; }
+#menulist a:hover{color:#FFF;}
+#menulist li:hover {background-color:#363636;}
+#menulist li.selected{ background-color:#272727;}
+#menulist li.selected a{ color:#FFF;}
+#menulist ol li{ padding-left: 20px; background: #4f4f4f}
+#menulist li ol li a{ padding-left:30px}
+#menulist li ol li ol li a{ padding-left:45px}
+
+#menulist ol{ display:none;}
+
+
+/*footer*/
+#footer{ margin-top: -90px; text-align: center;}
+#footer a[class*='fa-']{color:#FFFFFF; display:inline-block; padding:5px; font-size:22px}
+#footer a[class*='fa-']:hover{color:#b3b3b3;}
+
+
+/*Selected block*/
+.glow{ transition:all 1.5s; -webkit-transition:all 1.5s;  border-left: 20px solid #ccc;}
