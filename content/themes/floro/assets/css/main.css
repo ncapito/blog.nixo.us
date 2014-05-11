@@ -59,9 +59,9 @@ Number. Description Block
 @import url(font-awesome.min.css);
 
 /*custom fonts from google fonts*/
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
+@import url(//fonts.googleapis.com/css?family=Oswald);
+@import url(//fonts.googleapis.com/css?family=Droid+Serif);
+@import url(//fonts.googleapis.com/css?family=PT+Sans+Caption);
 *[class*='fa-']:before{ font-family:'FontAwesome' !important;}
 *[class*='fa-']{
     transition:all 0.3s;
