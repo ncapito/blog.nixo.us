@@ -1,5 +1,4 @@
 #!/bin/bash
- 
 # Invoke the Forever module (to START our Node.js server).
 rm err.log
 export NODE_ENV=production 

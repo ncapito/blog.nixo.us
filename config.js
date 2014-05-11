@@ -10,7 +10,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://blog.nixo.us',
+        url: 'https://nixo.us/',
         mail: {},
         database: {
             client: 'sqlite3',
