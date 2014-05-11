@@ -1,7 +1,7 @@
 node_modules/
 core/built/
 bower_components/
-core/built/*
+core/built/
 *.db
 *.log
 core/client/assets/css/ghost-ui.css
