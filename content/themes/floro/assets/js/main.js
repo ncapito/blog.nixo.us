@@ -110,7 +110,7 @@ $(document).ready(function(){
     if(MyRSSURL.length==0){
         var Autourl = document.location.toString();
         var Vurl = Autourl.split("/");
-        MyRSSURL = 'http://'+Vurl[2]+'/rss';
+        MyRSSURL = document.location.protocol +Vurl[2]+'/rss';
     };
 
     $.ajax({
@@ -178,7 +178,7 @@ $(document).ready(function(){
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     var MyGoogleAnalyticsID = 'UA-48827699-1';
-    var MyBlogURL = 'floro.ghost.io';
+    var MyBlogURL = 'nixo.us';
 
 
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
