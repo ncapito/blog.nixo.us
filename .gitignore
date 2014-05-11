@@ -1,4 +1,5 @@
 node_modules/
+core/built/
 bower_components/
 *.db
 *.log
