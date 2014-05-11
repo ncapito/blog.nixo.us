@@ -1,5 +1,11 @@
 node_modules/
 core/built/
 bower_components/
+core/built/*
 *.db
 *.log
+core/client/assets/css/ghost-ui.css
+core/client/assets/css/ghost-ui.min.css
+core/client/assets/fonts/icons.dev.svg
+core/client/assets/fonts/icons.svg
+core/client/tpl/hbs-tpl.js
