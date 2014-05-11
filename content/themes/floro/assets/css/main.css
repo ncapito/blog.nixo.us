@@ -436,17 +436,17 @@ article { position: relative; overflow: hidden;}
 
 /*Font color*/
 h1 *,h2 *,h3 *,h4 *,h5 *,h6 *,h1,h2,h3,h4,h5,h6, ul > li:before, ul > li > ul > li:before, ol > li:before, #menu a[class*="fa-"],a, a:hover,#menu a[class*="fa-"]:hover
-{color:#39CFAA; }
+{color:##3cb0ec; }
 
 /*Backgroud selection color*/
 ::-moz-selection, ::-webkit-selection, ::selection
-{background:#39CFAA ;}
+{background:##3cb0ec ;}
 
 /*Background color*/
 .button:hover, .post.featured:before, #menu,.sharepost *[class*='fa-']:hover
-{background:#39CFAA ;}
+{background:##3cb0ec ;}
 
 /*Borders*/
-blockquote{ border-left: 2px solid #39CFAA; border-right: 2px solid #39CFAA; }
-input:focus, textarea:focus,select:focus{ border:1px solid #39CFAA;}
-#disqus_thread, .post{ border-bottom: 15px solid #39CFAA; }
+blockquote{ border-left: 2px solid ##3cb0ec; border-right: 2px solid ##3cb0ec; }
+input:focus, textarea:focus,select:focus{ border:1px solid ##3cb0ec;}
+#disqus_thread, .post{ border-bottom: 15px solid ##3cb0ec; }
