@@ -109,10 +109,10 @@ $(document).ready(function(){
 
 
     /*if(MyRSSURL.length==0){
-        var Autourl = document.location.toString();
-        var Vurl = Autourl.split("/");
         MyRSSURL = document.location.protocol + "//" +  Vurl[2]+'/rss';
     };*/
+    var Autourl = document.location.toString();
+    var Vurl = Autourl.split("/");
     var url = document.location.protocol + "//" +  Vurl[2] + '/';
     var getUrl = url + 'ghost/api/v0.1/posts/'
 
