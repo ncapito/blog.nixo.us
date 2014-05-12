@@ -450,3 +450,14 @@ h1 *,h2 *,h3 *,h4 *,h5 *,h6 *,h1,h2,h3,h4,h5,h6, ul > li:before, ul > li > ul > 
 blockquote{ border-left: 2px solid #3cb0ec; border-right: 2px solid #3cb0ec; }
 input:focus, textarea:focus,select:focus{ border:1px solid #3cb0ec;}
 #disqus_thread, .post{ border-bottom: 15px solid #3cb0ec; }
+
+
+/* custom nick */
+#menu h4 a.homeLink{
+    color: white;
+    background: transparent;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+

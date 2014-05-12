@@ -15,7 +15,7 @@
 <body class="{{body_class}}" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     <nav id="menu">
         <a href="{{@blog.url}}">{{#if @blog.logo}}<img src="{{@blog.logo}}" alt="Blog Logo" id="bloglogo" />{{else}}HOME{{/if}}</a>
-        <h4>Recent post</h4>
+        <h4>Recent post  <a href="{{@blog.url}}" class="fa-home"></a> </h4>
         <select id="recentpostselect">
             <option>Select Recent Post</option>
         </select>
@@ -23,9 +23,9 @@
         </div>
         <p>
             {{! BEGUIN SOCIAL MEDIA ICONS /////////////////////////////////////////////////////////////////////////////////////////////}}
-                <a href="{{@blog.url}}" class="fa-home"></a>
                 <a href="https://twitter.com/NCapito" class="fa-twitter" target="_blank"></a>
                 <!--
+                <a href="{{@blog.url}}" class="fa-home"></a>
                 <a href="" class="fa-facebook" target="_blank"></a>
                 <a href="" class="fa-google-plus" target="_blank"></a>
                 <a href="" class="fa-flickr" target="_blank"></a>

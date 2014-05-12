@@ -1,0 +1,2217 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"inherit  (value)"
+			],
+			[
+				"line-",
+				"line-height:   (property)"
+			],
+			[
+				"auo",
+				"auto"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ser",
+				"serializeData"
+			],
+			[
+				"openAc",
+				"openActivitiesPanel"
+			],
+			[
+				"toLo",
+				"toLocaleLowerCase  (function)"
+			],
+			[
+				"isMulti",
+				"isMultiQuarters"
+			],
+			[
+				"refresh",
+				"refreshEntries"
+			],
+			[
+				"build",
+				"buildQuarter"
+			],
+			[
+				"data-",
+				"data-activity-id=  (attribute)"
+			],
+			[
+				"isNa",
+				"isNormalized  (variable)"
+			],
+			[
+				"syncCa",
+				"syncCalendarDisplay"
+			],
+			[
+				"getCha",
+				"getChannelsPropertyAsCommaSep"
+			],
+			[
+				"sucec",
+				"success  (function)"
+			],
+			[
+				"ActivityT",
+				"ActivityTitle"
+			],
+			[
+				"high",
+				"highchartsCore"
+			],
+			[
+				"para",
+				"paramString"
+			],
+			[
+				"filterCa",
+				"filterCategories"
+			],
+			[
+				"overf",
+				"overflow-y"
+			],
+			[
+				"_cl",
+				"_closeCalendarView"
+			],
+			[
+				"dipsa",
+				"display"
+			],
+			[
+				"filter",
+				"filterView"
+			],
+			[
+				"channe",
+				"channels_array"
+			],
+			[
+				"max",
+				"maxEntries"
+			],
+			[
+				"debu",
+				"debugger"
+			],
+			[
+				"startingYe",
+				"startingYearToRender"
+			],
+			[
+				"get",
+				"getStartingMonth"
+			],
+			[
+				"startin",
+				"startingMonth"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"_",
+				"_startingMonth"
+			],
+			[
+				"temp",
+				"temp_year"
+			],
+			[
+				"temp_",
+				"temp_quarter"
+			],
+			[
+				"app",
+				"App"
+			],
+			[
+				"show_s",
+				"show_search_results"
+			],
+			[
+				"ModalSe",
+				"ModalSearchView"
+			],
+			[
+				"open",
+				"open_search"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "content/themes/floro/index.hbs",
+			"settings":
+			{
+				"buffer_size": 748,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/themes/floro/assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 18249,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "content/themes/floro/assets/js/main.js",
+			"settings":
+			{
+				"buffer_size": 6551,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "content/themes/floro/default.hbs",
+			"settings":
+			{
+				"buffer_size": 3132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/themes/floro/post.hbs",
+			"settings":
+			{
+				"buffer_size": 2958,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/themes/floro/_Documentation/index.html",
+			"settings":
+			{
+				"buffer_size": 25127,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 1238 files for \"39CFAA;\"\n\n/Users/NickCapito/work/blog.nixo.us/content/themes/floro/_Documentation/index.html:\n  166                          /*Font color*/\n  167                          h1 *,h2 *,h3 *,h4 *,h5 *,h6 *,h1,h2,h3,h4,h5,h6, ul > li:before, ul > li > ul > li:before, ol > li:before, #menu a[class*=\"fa-\"],a, a:hover,#menu a[class*=\"fa-\"]:hover\n  168:                         {color:#39CFAA; }\n  169  \n  170                          /*Backgroud selection color*/\n  ...\n  177  \n  178                          /*Borders*/\n  179:                         blockquote{ border-left: 2px solid #39CFAA; border-right: 2px solid #39CFAA; }\n  180:                         input:focus, textarea:focus,select:focus{ border:1px solid #39CFAA;}\n  181:                         #disqus_thread, .post{ border-bottom: 15px solid #39CFAA; }\n  182  \n  183  \n\n5 matches in 1 file\n\n\nSearching 1233 files for \"39CFAA\"\n\n/Users/NickCapito/work/blog.nixo.us/content/themes/floro/_Documentation/index.html:\n  166                          /*Font color*/\n  167                          h1 *,h2 *,h3 *,h4 *,h5 *,h6 *,h1,h2,h3,h4,h5,h6, ul > li:before, ul > li > ul > li:before, ol > li:before, #menu a[class*=\"fa-\"],a, a:hover,#menu a[class*=\"fa-\"]:hover\n  168:                         {color:#39CFAA; }\n  169  \n  170                          /*Backgroud selection color*/\n  171                          ::-moz-selection, ::-webkit-selection, ::selection\n  172:                         {background:#39CFAA ;}\n  173  \n  174                          /*Background color*/\n  175                          .button:hover, .post.featured:before, .post-footer a[class*='fa-']:hover, #menu\n  176:                         {background:#39CFAA ;}\n  177  \n  178                          /*Borders*/\n  179:                         blockquote{ border-left: 2px solid #39CFAA; border-right: 2px solid #39CFAA; }\n  180:                         input:focus, textarea:focus,select:focus{ border:1px solid #39CFAA;}\n  181:                         #disqus_thread, .post{ border-bottom: 15px solid #39CFAA; }\n  182  \n  183  \n  184  \n  185                      </pre>\n  186:                     <p>NOTE: The default color are set by default on #39CFAA</p>\n  187  \n  188  \n  ...\n  357                      <span class=\"fa-bookmark\" data-color=\"#ffffff\"> &#35;ffffff</span> <br />\n  358                      <span class=\"fa-bookmark\" data-color=\"#a8d6d2\"> &#35;a8d6d2</span> <br />\n  359:                     <span class=\"fa-bookmark\" data-color=\"#39cfaa\"> &#35;39cfaa</span> <br />\n  360                      <span class=\"fa-bookmark\" data-color=\"#d44600\"> &#35;d44600</span> <br />\n  361                      <span class=\"fa-bookmark\" data-color=\"#ff9900\"> &#35;ff9900</span></p>\n\n10 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 2767,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				":convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				":$",
+				":$ - EOF"
+			],
+			[
+				":spaces ",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				":conver ",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convert to ",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"Grunt",
+				"Grunt"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: INst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Instal",
+				"Package Control: Install Package"
+			],
+			[
+				":convert ",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"conert tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"Convert ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				":conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				":Convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				":convert s",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				":conver ta",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				":Conver ta",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"Convert space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"INstall",
+				"Package Control: Install Package"
+			],
+			[
+				"Install P",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 597.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/NickCapito/work/blog.nixo.us/content/themes/casper/post.hbs",
+		"/Users/NickCapito/work/blog.nixo.us/bower_components/showdown/test/cases/ordered-list.html",
+		"/Users/NickCapito/work/blog.nixo.us/core/client/views/post-settings.js",
+		"/Users/NickCapito/work/blog.nixo.us/bower_components/codemirror/theme/pastel-on-dark.css",
+		"/Users/NickCapito/work/blog.nixo.us/package.json",
+		"/Users/NickCapito/work/blog.nixo.us/content/themes/casper/default.hbs",
+		"/Users/NickCapito/work/blog.nixo.us/content/themes/floro/default.hbs",
+		"/Users/NickCapito/work/partnershipplanningclient/config.json",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/modules/continuumProfile.edit.html",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-copy/CONTRIBUTING.md",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-cssmin/node_modules/clean-css/lib/properties/shorthand-notations.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-watch/node_modules/gaze/test/fixtures/Project (LO)/one.js",
+		"/Users/NickCapito/work/partnershipplanningclient/.sass-cache/121ac047a0adacb1025f484bfd8d33540b12a52e/_popovers.scssc",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/cookieParser.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-livereload/node_modules/.bin/tiny-lr",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/formidable/test/standalone/test-content-transfer-encoding.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-clean/test/clean_test.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/accountPlan.show.annualplan.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/accountPlan.show.html",
+		"/Users/NickCapito/work/partnershipplanningclient/packages/Microsoft.AspNet.WebApi.Core.4.0.20710.0/lib/net40/System.Web.Http.dll",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/services/services.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/directives/_infoModuleSection.html",
+		"/Users/NickCapito/work/partnershipplanningclient/Views/Home/Index.cshtml",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/angular-ui-router/src/stateDirectives.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/angular-ui-router/src/viewDirective.js",
+		"/Users/NickCapito/work/partnershipplanningclient/.sass-cache/a3ebd67b349f755c376cc55feebaa864e95925cf/_allDirectives.scssc",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/modules/customerInfo.show.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/modules/continuumProfile.show.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/mocks.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/me.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/directives/infoTableDirective.js",
+		"/Users/NickCapito/work/partnershipplanningclient/.sass-cache/121ac047a0adacb1025f484bfd8d33540b12a52e/_tables.scssc",
+		"/Users/NickCapito/work/partnershipplanningclient/Views/Shared/_Layout.cshtml",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/directives/_infoTableSection.html",
+		"/Users/NickCapito/work/partnershipplanningclient/.sass-cache/a3ebd67b349f755c376cc55feebaa864e95925cf/_infoModule.scssc",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/font-awesome/src/_includes/tests/rotated-flipped-inside-anchor.html",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt/node_modules/rimraf/test/test-async.js",
+		"/Users/NickCapito/work/partnershipplanningclient/todo.txt",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/accountPlan.show.addressbook.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/accountPlan.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/app.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/modules/customerInfo.edit.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/font-awesome/src/_includes/examples/custom.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/sass-bootstrap/customize.html",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-uglify/node_modules/uglify-js/test/compress/properties.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-consumer.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/directives/directives.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/models/models.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/styles/sass/main.scss",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/modules/history.edit.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/modules/continuumProfile.summary.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/modules/history.summary.html",
+		"/Users/NickCapito/work/partnershipplanningclient/Gruntfile.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/modules/history.show.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/accountPlan.show.customer.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/angular/angular.js",
+		"/Users/NickCapito/work/partnershipplanningclient/.sass-cache/a55bf7a8d2300c6081387be6c3e062ffcaa13fed/_ngUIViewAnim.scssc",
+		"/Users/NickCapito/work/partnershipplanningclient/packages/Microsoft.AspNet.Mvc.4.0.20710.0/Microsoft.AspNet.Mvc.4.0.20710.0.nupkg",
+		"/Users/NickCapito/work/partnershipplanningclient/app/styles/main.css",
+		"/Users/NickCapito/work/partnershipplanningclient/app/releases/scripts/p2LoginAll.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/font-awesome/src/3.2.1/icon/location-arrow/index.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/sass-bootstrap/lib/_component-animations.scss",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/jquery/test/localfile.html",
+		"/Users/NickCapito/work/partnershipplanningclient/Controllers/LoginController.cs",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/loginApp.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/styles/stylesheets/main.css",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/jquery/test/data/offset/table.html",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-clean/.jshintrc",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/sass-bootstrap/js/tab.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/directives/_infoListModule.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/accountPlan.list.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/highcharts/js/parts/LineSeries.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/blueimp-load-image/js/load-image.js",
+		"/Users/NickCapito/work/partnershipplanningclient/.sass-cache/d0d52005070fd908fe6486804fb9375117757d2c/_accountPlanList.scssc",
+		"/Users/NickCapito/work/partnershipplanningclient/obj/Debug/PartnershipPlanningClient.csproj.FileListAbsolute.txt",
+		"/Users/NickCapito/work/partnershipplanningclient/bower.json",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/services/angular-local-storage.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/url.js",
+		"/Users/NickCapito/work/comcast/retailcalendarclient/scripts/app/mocks/mocks.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/controllers/controllers.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/releases/scripts/p2All.js",
+		"/Users/NickCapito/work/partnershipplanningclient/README.md",
+		"/Users/NickCapito/work/comcast/retailcalendarclient/scripts/app/login/login.html",
+		"/Users/NickCapito/work/partnershipplanningclient/Views/Shared/_PublicLayout.cshtml",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/login.html",
+		"/Users/NickCapito/work/partnershipplanningclient/app/styles/sass/login.scss",
+		"/Users/NickCapito/work/partnershipplanningclient/app/styles/css/login.css",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/build/prefix-utils.jsm",
+		"/Users/NickCapito/work/partnershipplanningclient/package.json",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-modernizr/node_modules/colors/ReadMe.md",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt/node_modules/colors/ReadMe.md",
+		"/Users/NickCapito/work/partnershipplanningclient/Controllers/HomeController.cs",
+		"/Users/NickCapito/work/partnershipplanningclient/Views/Login/Index.cshtml",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-modernizr/node_modules/request/tests/test-isUrl.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-uglify/test/fixtures/expected/sourcemapurl.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/angular-ui-router/src/urlRouter.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-cssmin/node_modules/clean-css/lib/text/urls.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/urlencoded.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/angular-bootstrap/ui-bootstrap-tpls.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/releases/scripts/p2.min.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/views/account_planning/modules/contacts.edit.html",
+		"/Users/NickCapito/work/partnershipplanningclient/packages/Microsoft.AspNet.WebApi.WebHost.4.0.20710.0/lib/net40/System.Web.Http.WebHost.dll",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin/shjs",
+		"/Users/NickCapito/work/partnershipplanningclient/.sass-cache/87f7cce3b4f1d8b9721583635b7f040ce98b52ff/screen.scssc",
+		"/Users/NickCapito/work/partnershipplanningclient/.sass-cache/121ac047a0adacb1025f484bfd8d33540b12a52e/_wells.scssc",
+		"/Users/NickCapito/work/partnershipplanningclient/packages/jQuery.1.9.0/Tools/jquery-1.9.0.intellisense.js",
+		"/Users/NickCapito/work/partnershipplanningclient/packages/Microsoft.jQuery.Unobtrusive.Validation.2.0.30116.0/Content/Scripts/jquery.validate.unobtrusive.min.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/font-awesome/src/3.2.1/assets/font-awesome/less/mixins.less",
+		"/Users/NickCapito/work/partnershipplanningclient/packages/Microsoft.AspNet.WebApi.Client.4.0.20710.0/Microsoft.AspNet.WebApi.Client.4.0.20710.0.nupkg",
+		"/Users/NickCapito/work/partnershipplanningclient/packages/Microsoft.AspNet.WebApi.4.0.20710.0/Microsoft.AspNet.WebApi.4.0.20710.0.nupkg",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/highcharts/js/highcharts-more.src.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/angular-datepicker/.jshintrc",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/angular-datepicker/.bowerrc",
+		"/Users/NickCapito/work/partnershipplanningclient/.sass-cache/121ac047a0adacb1025f484bfd8d33540b12a52e/_pager.scssc",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/utils/url.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-watch/test/tasks/nospawn_test.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-concat/docs/concat-options.md",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/new-glob-optional-options.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/blueimp-load-image/js/load-image-orientation.js",
+		"/Users/NickCapito/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/NickCapito/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/highcharts/js/highcharts-more.debug.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/highcharts/js/highcharts-3d.src.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/highcharts/js/highcharts.src.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/libs/highcharts/js/highcharts.debug.js",
+		"/Users/NickCapito/work/partnershipplanningclient/app/scripts/filters/filters.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-modernizr/lib/cache/contextmenu.js",
+		"/Users/NickCapito/work/partnershipplanningclient/node_modules/grunt-contrib-cssmin/node_modules/clean-css/lib/colors/hsl-to-hex.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -mvtAll.js, -*.xml, -node_modules/*, -*.dll, -*.map,-*.scssc, -main.css, -lib/angular/, *, -*.js.src.html, -editor-selection-coverage.js, -js-test/*",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -mvtAll.js, -*.xml, -node_modules/*, -*.dll, -*.map,-*.scssc, main.css, -lib/angular/, *, -*.js.src.html, -editor-selection-coverage.js, -js-test/*",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -mvtAll.js, -*.xml, -node_modules/*, -*.dll, -*.map,-*.scssc,  -lib/angular/, *, -*.js.src.html, -editor-selection-coverage.js, -js-test/*",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -mvtAll.js, -*.xml, -node_modules/*, -*.dll, -*.map, -lib/angular/, *, -*.js.src.html, -editor-selection-coverage.js, -js-test/*",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -node_modules/*, -*.dll, -*.map, -lib/angular/, *, -*.js.src.html, -editor-selection-coverage.js, -js-test/*",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -node_modules/*, -*.dll, -*.map, -lib/angular/, *, -*.js.src.html, -editor-selection-coverage.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, -lib/angular/, *, -*.js.src.html, -editor-selection-coverage.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, -lib/angular/, *, -*.js.src.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, -lib/angular/, *",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, -lib/angular/, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, -lib/angular/, *",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, -lib/angular/, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, -lib/angular/, *.js",
+			" -*.min.js, -obj/, -lib/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *",
+			"AddRep.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			"*",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, -*.js, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.html",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map, *.js",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll, -*.map",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -*.xml, -*.dll",
+			" -*.min.js, -obj/, -libs/, -scripts_bak, -.xml, -dll",
+			" -*.min.js, -obj/, -libs/, -scripts_bak",
+			" -*.min.js, -obj/, *.js, -libs/, -scripts_bak",
+			" -*.min.js, -obj/, *.js, -libs/",
+			" -*.min.js, -obj/, *.js",
+			"*, -*.min.js, -obj/, *.js",
+			"*, -*.min.js, -obj/",
+			"*, -*.min.js",
+			"*",
+			"*,-app/scrip",
+			"*",
+			"",
+			"*,-libs/*",
+			"*",
+			"*.html",
+			"*.js",
+			"*",
+			"*.js",
+			"*",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*",
+			"*.html",
+			"*.js",
+			"*",
+			"*.js",
+			"*",
+			"",
+			"*.html",
+			"*.js",
+			"*",
+			"*.js",
+			"*",
+			"*.js",
+			"*.ja",
+			"*",
+			"*.js",
+			"*.cs",
+			"*.js",
+			"*",
+			"*.js",
+			"*",
+			"*.css",
+			"*.js",
+			"*",
+			"/Users/NickCapito/work/comcast/retailcalendarclient/app/scripts/collections,/Users/NickCapito/work/comcast/retailcalendarclient/app/scripts/controllers,/Users/NickCapito/work/comcast/retailcalendarclient/app/scripts/models,/Users/NickCapito/work/comcast/retailcalendarclient/app/scripts/views",
+			"*.js",
+			"*",
+			"*.sass",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*",
+			"*.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"##",
+			"39CFAA",
+			"3c6cec",
+			"39CFAA",
+			"39CFAA;",
+			"cancel",
+			"toBoolean",
+			"ngShow",
+			"DETAILS",
+			"'summary'",
+			"that",
+			"LocationModel",
+			"sort = ",
+			"state",
+			"summary",
+			")\"",
+			"sortOrder=\"",
+			"factory",
+			"EditService",
+			"LoginC",
+			"Login",
+			"Controller",
+			"CurrentUserModel",
+			"LocalStorageModule",
+			"{\n",
+			"AccountPlanCtrl",
+			"p2App.utils",
+			"p2App",
+			"businessData",
+			"scope",
+			"gauge",
+			"clockData",
+			"ng-leave",
+			"$new = ",
+			".repeated-item",
+			"$new",
+			"sample-show-hide",
+			"high",
+			"Customer Insight",
+			"fiscal",
+			"date",
+			".active",
+			"scope.model",
+			"scope.model.",
+			"setDate(",
+			"setDate",
+			"scope.model",
+			"debugger",
+			"monthPicker",
+			"date-picker",
+			"datePicker3",
+			"datePicker",
+			"datePicker3",
+			"datePicker",
+			"var Mo",
+			"Var M",
+			"datePicker3",
+			"datePicker",
+			"datepicker",
+			"datePicker",
+			"MM/YYYY",
+			"FiscalY",
+			".btn-default",
+			"show-week",
+			"\"container\" acc",
+			"coming-soon",
+			"comming-soon",
+			"coming-soon",
+			"comming-soon",
+			"infoModule",
+			"debugger",
+			"ContactsID",
+			"ContactID",
+			"ContactsID",
+			"Contacts",
+			"result.History",
+			"sant",
+			"EditSer",
+			"debugger",
+			"history",
+			"debugger",
+			"section(",
+			"setModel",
+			"create",
+			"locationID",
+			"getLocationData",
+			"this",
+			"currentUser",
+			"watch",
+			"p2All.js",
+			"debugger",
+			"concat",
+			"pt2",
+			"MVT",
+			"mvt.min.js",
+			"mvtAll",
+			"models",
+			"getAPData",
+			":[",
+			"EditServiceFac",
+			"_editing",
+			"setEditing",
+			"location",
+			"this",
+			"$scope",
+			"debugger",
+			"ap_",
+			"debugger",
+			"data = ",
+			"LocationModel",
+			"target",
+			"Anytown",
+			"getK",
+			"getKeysForLocalStorage",
+			"ppApp",
+			"ppApp.",
+			"BHC:",
+			"DegreeTypeID:",
+			"Description:",
+			"RLC:",
+			"NLC:",
+			"MVC:",
+			"ECC:",
+			"EFC:",
+			"CVC:",
+			"\"CVC\":",
+			"BHC:",
+			"Degree:"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"p2App",
+			"p2App.",
+			"\"BHC\":",
+			"\"DegreeTypeID\":",
+			"\"Description\":",
+			"\"RLC\":",
+			"\"NLC\":",
+			"\"MVC\":",
+			"\"ECC\":",
+			"\"EFC\":",
+			"\"CVC\":",
+			"\"BHC\":",
+			"url.js",
+			"app/libs",
+			"greatGroup",
+			"stuffToShow",
+			"employees.show.edit",
+			"Core.getLocationID()",
+			"currentEmployee",
+			"foundEmployee.Location.Location",
+			"foundEmployee.",
+			"Core.currentEmployee.Email",
+			"Core.currentEmployee.RankID",
+			"Core.currentEmployee.RankTitle",
+			"Core.currentEmployee.JobGroupID",
+			"Core.currentEmployee.JobTitle",
+			"Core.currentEmployee.HasAvatar",
+			"Core.currentEmployee.UserName",
+			"currentEmployee",
+			"Core.activeEmploye.FirstName",
+			"Core.activeEmploye.LastName",
+			"this.model.get(\"startingMonth\")",
+			"this.model.startingMonth",
+			"iconOffset",
+			"$entryRow.addClass('orphan');",
+			" entryRow.addClass('orphan');",
+			"abbreviateDays",
+			"moment().",
+			" !== ",
+			" === ",
+			"ReportFilterViewModel",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "content/themes/floro/index.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								733,
+								733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "content/themes/floro/assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18238,
+								18238
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7491.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "content/themes/floro/assets/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3396,
+								3396
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1826.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "content/themes/floro/default.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2056,
+								2056
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "content/themes/floro/post.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2307,
+								2307
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 111.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "content/themes/floro/_Documentation/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9671,
+								9650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2802.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2767,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										404,
+										411
+									],
+									[
+										607,
+										614
+									],
+									[
+										640,
+										647
+									],
+									[
+										741,
+										748
+									],
+									[
+										831,
+										838
+									],
+									[
+										1283,
+										1289
+									],
+									[
+										1488,
+										1494
+									],
+									[
+										1713,
+										1719
+									],
+									[
+										1841,
+										1847
+									],
+									[
+										1874,
+										1880
+									],
+									[
+										1975,
+										1981
+									],
+									[
+										2065,
+										2071
+									],
+									[
+										2210,
+										2216
+									],
+									[
+										2511,
+										2517
+									],
+									[
+										2525,
+										2531
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								880,
+								880
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 110.0
+	},
+	"output.find_results":
+	{
+		"height": 98.0
+	},
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"post.h",
+				"content/themes/floro/post.hbs"
+			],
+			[
+				"default.hbs",
+				"content/themes/floro/default.hbs"
+			],
+			[
+				"controllers",
+				"app/scripts/controllers/controllers.js"
+			],
+			[
+				"history.edit.html",
+				"app/views/account_planning/modules/history.edit.html"
+			],
+			[
+				"infodi",
+				"app/scripts/directives/infoTableDirective.js"
+			],
+			[
+				"history.edit",
+				"app/views/account_planning/modules/history.edit.html"
+			],
+			[
+				"models",
+				"app/scripts/models/models.js"
+			],
+			[
+				"_tablemo",
+				"app/views/directives/_infoTableSection.html"
+			],
+			[
+				"_infotablesection",
+				"app/views/directives/_infoTableSection.html"
+			],
+			[
+				"tabldire",
+				"app/scripts/directives/infoTableDirective.js"
+			],
+			[
+				"direc",
+				"app/scripts/directives/directives.js"
+			],
+			[
+				"accountplan.show",
+				"app/views/account_planning/accountPlan.show.customer.html"
+			],
+			[
+				"accountplan.cshow",
+				"app/views/account_planning/modules/customerInfo.show.html"
+			],
+			[
+				"angular.",
+				"app/libs/angular/angular.js"
+			],
+			[
+				"directiv",
+				"app/scripts/directives/directives.js"
+			],
+			[
+				"main.scs",
+				"app/styles/sass/main.scss"
+			],
+			[
+				"main.",
+				"app/styles/main.css"
+			],
+			[
+				"table.html",
+				"app/views/directives/_infoTableSection.html"
+			],
+			[
+				"tabledi",
+				"app/scripts/directives/infoTableDirective.js"
+			],
+			[
+				"history.show.html",
+				"app/views/account_planning/modules/history.show.html"
+			],
+			[
+				"listd",
+				"app/views/directives/_infoListModule.html"
+			],
+			[
+				"_infomodulesection",
+				"app/views/directives/_infoModuleSection.html"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"direcitve",
+				"app/scripts/directives/directives.js"
+			],
+			[
+				"infolist",
+				"app/views/directives/_infoListModule.html"
+			],
+			[
+				"show.h",
+				"app/views/account_planning/accountPlan.show.html"
+			],
+			[
+				"model.js",
+				"app/scripts/models/models.js"
+			],
+			[
+				"mocks",
+				"app/scripts/mocks.js"
+			],
+			[
+				"login.cs",
+				"app/styles/css/login.css"
+			],
+			[
+				"public",
+				"Views/Shared/_PublicLayout.cshtml"
+			],
+			[
+				"login.html",
+				"app/views/login.html"
+			],
+			[
+				"controlle",
+				"app/scripts/controllers/controllers.js"
+			],
+			[
+				"login",
+				"app/scripts/loginApp.js"
+			],
+			[
+				"loginap",
+				"app/scripts/loginApp.js"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"service",
+				"app/scripts/services/services.js"
+			],
+			[
+				"index.cs",
+				"Views/Home/Index.cshtml"
+			],
+			[
+				"url.js",
+				"app/scripts/url.js"
+			],
+			[
+				"app.js",
+				"app/scripts/app.js"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"urls",
+				"app/scripts/url.js"
+			],
+			[
+				"index",
+				"Views/Home/Index.cshtml"
+			],
+			[
+				"direct",
+				"app/scripts/directives/directives.js"
+			],
+			[
+				".edit.html",
+				"app/views/account_planning/modules/contacts.edit.html"
+			],
+			[
+				"acco.show",
+				"app/views/account_planning/modules/customerInfo.show.html"
+			],
+			[
+				"p2min",
+				"app/releases/scripts/p2.min.js"
+			],
+			[
+				"cont",
+				"app/scripts/controllers/controllers.js"
+			],
+			[
+				"accountpla",
+				"app/views/account_planning/accountPlan.html"
+			],
+			[
+				"ap.js",
+				"app/scripts/app.js"
+			],
+			[
+				"accoun",
+				"app/views/account_planning/accountPlan.html"
+			],
+			[
+				"index.",
+				"Views/Login/Index.cshtml"
+			],
+			[
+				"conot",
+				"app/scripts/controllers/controllers.js"
+			],
+			[
+				"controller",
+				"app/scripts/controllers/controllers.js"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			],
+			[
+				"highchartss-more.",
+				"app/libs/highcharts/js/highcharts-more.src.js"
+			],
+			[
+				"me.ht",
+				"app/views/me.html"
+			],
+			[
+				"dire",
+				"app/scripts/directives/directives.js"
+			],
+			[
+				"account",
+				"app/views/account_planning/accountPlan.show.html"
+			],
+			[
+				"accountpl",
+				"app/views/account_planning/accountPlan.html"
+			],
+			[
+				"contact",
+				"app/views/account_planning/modules/contacts.edit.html"
+			],
+			[
+				"history.ed",
+				"app/views/account_planning/modules/history.edit.html"
+			],
+			[
+				"main.sc",
+				"app/styles/sass/main.scss"
+			],
+			[
+				"infomodse",
+				"app/views/directives/_infoModuleSection.html"
+			],
+			[
+				"account.lis",
+				"app/views/account_planning/accountPlan.list.html"
+			],
+			[
+				"filter",
+				"app/scripts/filters/filters.js"
+			],
+			[
+				"list.html",
+				"app/views/account_planning/accountPlan.list.html"
+			],
+			[
+				"contrl",
+				"app/scripts/controllers/controllers.js"
+			],
+			[
+				"me",
+				"app/views/me.html"
+			],
+			[
+				".jsh",
+				".jshintrc"
+			],
+			[
+				"history.edi",
+				"app/views/account_planning/modules/history.edit.html"
+			],
+			[
+				"customer.show",
+				"app/views/account_planning/modules/customerInfo.show.html"
+			],
+			[
+				"accountshowh",
+				"app/views/account_planning/accountPlan.show.html"
+			],
+			[
+				"customer.html",
+				"app/views/account_planning/modules/customerInfo.show.html"
+			],
+			[
+				"show.",
+				"app/views/account_planning/accountPlan.show.html"
+			],
+			[
+				"logina",
+				"app/scripts/loginApp.js"
+			],
+			[
+				"datepicker",
+				"app/scripts/directives/datePicker.js"
+			],
+			[
+				"datepi",
+				"app/scripts/directives/datePicker.js"
+			],
+			[
+				"date",
+				"app/scripts/directives/datePicker.js"
+			],
+			[
+				"datepic",
+				"app/scripts/directives/datePicker.js"
+			],
+			[
+				"dateo",
+				"node_modules/grunt/node_modules/dateformat/lib/dateformat.js"
+			],
+			[
+				"ui-bo",
+				"app/libs/angular-ui-bootstrap-bower/ui-bootstrap.js"
+			],
+			[
+				"boo.scs",
+				"app/styles/sass/defaults/_bootstrap-overrides.scss"
+			],
+			[
+				"defauls.scs",
+				"app/styles/sass/defaults/_defaults.scss"
+			],
+			[
+				"default.scs",
+				".sass-cache/fcefaade209734209eb62c2f740bdd2c4301ae59/_defaults.scssc"
+			],
+			[
+				"histir",
+				"app/views/account_planning/modules/history.edit.html"
+			],
+			[
+				"show.html",
+				"app/views/account_planning/accountPlan.show.html"
+			],
+			[
+				"edit.ht",
+				"app/views/account_planning/modules/customerInfo.edit.html"
+			],
+			[
+				"history",
+				"app/views/account_planning/modules/history.edit.html"
+			],
+			[
+				"edit.html",
+				"app/views/account_planning/modules/contacts.edit.html"
+			],
+			[
+				"login.h",
+				"app/views/login.html"
+			],
+			[
+				"info.scs",
+				"app/styles/sass/directives/_infoModule.scss"
+			],
+			[
+				"_dire",
+				"app/styles/sass/directives/_allDirectives.scss"
+			],
+			[
+				"_allvi",
+				"app/styles/sass/views/_allViews.scss"
+			],
+			[
+				"def.scs",
+				"app/styles/sass/defaults/_defaults.scss"
+			],
+			[
+				"main",
+				"app/styles/sass/main.scss"
+			],
+			[
+				"infomodel",
+				"app/views/directives/_infoModuleSection.html"
+			],
+			[
+				"_info",
+				"app/views/directives/_infoModuleSection.html"
+			],
+			[
+				"infomo",
+				"app/views/directives/_infoModuleSection.html"
+			],
+			[
+				"infolist.h",
+				"app/views/directives/_infoListModule.html"
+			],
+			[
+				"show",
+				"app/views/account_planning/accountPlan.show.html"
+			],
+			[
+				"me.h",
+				"app/views/me.html"
+			],
+			[
+				"app.",
+				"app/scripts/app.js"
+			],
+			[
+				"control",
+				"app/scripts/controllers/controllers.js"
+			],
+			[
+				"_infolist.h",
+				"app/views/directives/_infoListModule.html"
+			],
+			[
+				"_infomodule",
+				"app/views/directives/_infoModuleSection.html"
+			],
+			[
+				"infomod",
+				"app/views/directives/_infoModule.html"
+			],
+			[
+				"modles",
+				"app/scripts/models/models.js"
+			],
+			[
+				"p2all",
+				"app/releases/scripts/p2All.js"
+			],
+			[
+				"history.show",
+				"app/views/account_planning/modules/history.show.html"
+			],
+			[
+				"infolistmo",
+				"app/views/directives/_infoListModule.html"
+			],
+			[
+				"bootstraptpls",
+				"app/libs/angular-ui-bootstrap-bower/ui-bootstrap-tpls.js"
+			],
+			[
+				"_read",
+				"app/views/account_planning_modules/customerInfo_read.html"
+			],
+			[
+				"services.j",
+				"app/scripts/services/services.js"
+			],
+			[
+				"accountplan",
+				"app/views/accountPlan.list.html"
+			],
+			[
+				"url.",
+				"app/scripts/url.js"
+			],
+			[
+				"targets.",
+				"app/views/targets.html"
+			],
+			[
+				"target",
+				"app/views/targets.html"
+			],
+			[
+				"mainnav",
+				"app/views/directives/mainNav.html"
+			],
+			[
+				"util",
+				"node_modules/grunt-contrib-livereload/lib/utils.js"
+			],
+			[
+				"",
+				"app/scripts/controllers/controllers.js"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"ui-router",
+				"app/libs/angular-ui-router/release/angular-ui-router.js"
+			],
+			[
+				"mainn",
+				"app/views/directives/mainNav.html"
+			],
+			[
+				"navbar",
+				"app/libs/sass-bootstrap/examples/navbar/navbar.css"
+			],
+			[
+				"mvt",
+				"app/scripts/MVT.js"
+			],
+			[
+				"_la",
+				"Views/Shared/_Layout.cshtml"
+			],
+			[
+				"dash",
+				"app/views/dashboard.html"
+			],
+			[
+				"controlelr",
+				"app/scripts/controllers/controllers.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"CategoryID",
+				"CategoryID"
+			]
+		],
+		"width": 400.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 295.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
