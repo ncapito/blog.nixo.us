@@ -28,7 +28,16 @@ config = {
     },
     production: {
         url: 'https://nixo.us/',
-        mail: {},
+	mail: {
+   	 transport: 'SMTP',
+   	 options: {
+       	 service: 'Mailgun',
+       		 auth: {
+     	       user: 'postmaster@nixo.us',
+     	       pass: '3-fiy9hfgxd9'
+    	  	  }
+  	  }
+	},
         database: {
             client: 'sqlite3',
             connection: {
