@@ -110,7 +110,7 @@ $(document).ready(function(){
     if(MyRSSURL.length==0){
         var Autourl = document.location.toString();
         var Vurl = Autourl.split("/");
-        MyRSSURL = document.location.protocol + "//" +  +Vurl[2]+'/rss';
+        MyRSSURL = document.location.protocol + "//" +  Vurl[2]+'/rss';
     };
 
     $.ajax({
