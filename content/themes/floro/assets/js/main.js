@@ -107,26 +107,30 @@ $(document).ready(function(){
 
 
 
-    if(MyRSSURL.length==0){
+
+    /*if(MyRSSURL.length==0){
         var Autourl = document.location.toString();
         var Vurl = Autourl.split("/");
         MyRSSURL = document.location.protocol + "//" +  Vurl[2]+'/rss';
-    };
+    };*/
+    var url = document.location.protocol + "//" +  Vurl[2] + '/';
+    var getUrl = url + 'ghost/api/v0.1/posts/'
 
     $.ajax({
         type: "GET",
-        url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=2.0&num='+MyPoststoLoad+'&callback=?&q=' + encodeURIComponent(MyRSSURL),
+        url: getUrl,
+        //document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=2.0&num='+MyPoststoLoad+'&callback=?&q=' + encodeURIComponent(MyRSSURL),
         dataType: 'json',
         error: function(){
             alert('Unable to load feed, Incorrect path or invalid feed');
         },
         success: function(xml){
-            var postlist = xml.responseData.feed.entries;
+            var postlist = xml.postlist//xml.responseData.feed.entries;
             var html= '';
             var htmlselect= '';
             $.each(postlist, function(idx, data) {
-                html += '<h2 class="post-title"><a href="'+data.link+'">'+data.title+'</a></h2>';
-                htmlselect +='<option value="'+data.link+'">'+data.title+'</option>'
+                html += '<h2 class="post-title"><a href="' + url  + data.slug +'">'+data.title+'</a></h2>';
+                htmlselect +='<option value="'+ url  + data.slug +'">'+data.title+'</option>'
             });
             $('#recentpost').append(html);
             $('#recentpostselect').append(htmlselect);
