@@ -114,7 +114,7 @@ $(document).ready(function(){
     var Autourl = document.location.toString();
     var Vurl = Autourl.split("/");
     var url = document.location.protocol + "//" +  Vurl[2] + '/';
-    var getUrl = url + 'ghost/api/v0.1/posts/'
+    var getUrl = url + 'rss/?json=true'
 
     $.ajax({
         type: "GET",
@@ -125,12 +125,12 @@ $(document).ready(function(){
             alert('Unable to load feed, Incorrect path or invalid feed');
         },
         success: function(xml){
-            var postlist = xml.posts || []; //xml.responseData.feed.entries;
+            var postlist = xml.items || []; //xml.responseData.feed.entries;
             var html= '';
             var htmlselect= '';
             $.each(postlist, function(idx, data) {
-                html += '<h2 class="post-title"><a href="' + url  + data.slug +'">'+data.title+'</a></h2>';
-                htmlselect +='<option value="'+ url  + data.slug +'">'+data.title+'</option>'
+                html += '<h2 class="post-title"><a href="' + data.url +'">'+data.title+'</a></h2>';
+                htmlselect +='<option value="'+ data.url +'">'+data.title+'</option>'
             });
             $('#recentpost').append(html);
             $('#recentpostselect').append(htmlselect);
