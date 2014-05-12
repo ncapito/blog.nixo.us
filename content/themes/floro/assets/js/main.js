@@ -125,7 +125,7 @@ $(document).ready(function(){
             alert('Unable to load feed, Incorrect path or invalid feed');
         },
         success: function(xml){
-            var postlist = xml.postlist//xml.responseData.feed.entries;
+            var postlist = xml.post || []; //xml.responseData.feed.entries;
             var html= '';
             var htmlselect= '';
             $.each(postlist, function(idx, data) {
