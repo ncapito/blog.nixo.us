@@ -115,7 +115,7 @@ $(document).ready(function(){
 
     $.ajax({
         type: "GET",
-        url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num='+MyPoststoLoad+'&callback=?&q=' + encodeURIComponent(MyRSSURL),
+        url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=2.0&num='+MyPoststoLoad+'&callback=?&q=' + encodeURIComponent(MyRSSURL),
         dataType: 'json',
         error: function(){
             alert('Unable to load feed, Incorrect path or invalid feed');
