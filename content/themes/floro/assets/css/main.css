@@ -453,6 +453,10 @@ input:focus, textarea:focus,select:focus{ border:1px solid #3cb0ec;}
 
 
 /* custom nick */
+img[src$='#cover-image'] {
+    display: none;
+}
+
 #menu h4 a.homeLink{
     color: white;
     background: transparent;
