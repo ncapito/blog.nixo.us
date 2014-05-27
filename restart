@@ -1,0 +1,9 @@
+#!/bin/bash
+# Invoke the Forever module (to STOP our Node.js server).
+./node_modules/forever/bin/forever stop index.js 
+grunt clean
+grunt prod
+sudo rm -rf /var/cache/nginx
+sudo mkdir /var/cache/nginx
+./start
+sudo service nginx restart
