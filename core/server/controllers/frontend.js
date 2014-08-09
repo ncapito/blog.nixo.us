@@ -252,8 +252,7 @@ frontendControllers = {
     'rss': function (req, res, next) {
         // Initialize RSS
         var pageParam = req.params.page !== undefined ? parseInt(req.params.page, 10) : 1,
-            tagParam = req.params.slug,
-            json = req.query.json !== undefined;
+            tagParam = req.params.slug;
 
         // No negative pages, or page 1
         if (isNaN(pageParam) || pageParam < 1 ||
@@ -294,18 +293,14 @@ frontendControllers = {
                     feedUrl = feedUrl + 'tag/' + page.aspect.tag.slug + '/';
                 }
 
-                feed = {
+                feed = new RSS({
                     title: title,
                     description: description,
                     generator: 'Ghost v' + res.locals.version,
                     feed_url: feedUrl,
                     site_url: siteUrl,
                     ttl: '60'
-                };
-
-                if(!json){
-                    feed = new RSS(feed);
-                }
+                });
 
 
                 // A bit of a hack for situations with no content.
@@ -349,30 +344,15 @@ frontendControllers = {
                             return "href='" + p1 + "' ";
                         });
                         item.description = content;
-                        if(json){
-                            feed.items = feed.items || [];
-                            feed.items.push(item);
-
-                        }else{
-                            feed.item(item);
-                        }
+                        feed.item(item);
                         deferred.resolve();
                         feedItems.push(deferred.promise);
                     });
                 });
 
                 when.all(feedItems).then(function () {
-                    var data =  feed,
-                                contentType='application/json';
-                    if(json){
-                        //no op
-                    }else{
-                        contentType = 'text/xml';
-                        feed = feed.xml();
-                    }
-
-                    res.set('Content-Type',  contentType);
-                    res.send(feed);
+                    res.set('Content-Type', 'text/xml');
+                    res.send(feed.xml());
                 });
             });
         }).otherwise(handleError(next));
