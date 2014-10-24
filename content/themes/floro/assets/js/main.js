@@ -103,7 +103,7 @@ $(document).ready(function(){
 
     var MyRSSURL = 'https://nixo.us/rss';
     var MyPoststoLoad = '6';
-
+    /*
     $.ajax({
         type: "GET",
         url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num='+MyPoststoLoad+'&callback=?&q=' + encodeURIComponent(MyRSSURL),
@@ -122,7 +122,37 @@ $(document).ready(function(){
             $('#recentpost').append(html);
             $('#recentpostselect').append(htmlselect);
         }
+    });*/
+
+    var Autourl = document.location.toString();
+    var Vurl = Autourl.split("/");
+    var url = document.location.protocol + "//" +  Vurl[2] + '/';
+    var getUrl = url + 'rss/?json=true'
+
+    $.ajax({
+        type: "GET",
+        url: getUrl,
+        //document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=2.0&num='+MyPoststoLoad+'&callback=?&q=' + encodeURIComponent(MyRSSURL),
+        dataType: 'json',
+        error: function(){
+            alert('Unable to load feed, Incorrect path or invalid feed');
+        },
+        success: function(xml){
+            var postlist = xml.items || []; //xml.responseData.feed.entries;
+            var html= '';
+            var htmlselect= '';
+            $.each(postlist, function(idx, data) {
+                html += '<h2 class="post-title"><a href="' + data.url +'">'+data.title+'</a></h2>';
+                htmlselect +='<option value="'+ data.url +'">'+data.title+'</option>'
+            });
+            $('#recentpost').append(html);
+            $('#recentpostselect').append(htmlselect);
+        }
     });
+
+
+
+
 
 
 
@@ -195,6 +225,3 @@ $(document).ready(function(){
     })
 
 });//end document.ready
-
-
-
