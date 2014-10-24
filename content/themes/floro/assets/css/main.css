@@ -209,7 +209,7 @@ select{ width: 100%;}
     -webkit-transition:all 0.3s;}
 #menu h4{ color: #fff; margin-bottom: 0; text-transform: capitalize; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 2px solid #fff;}
 #menu a:hover{ color:#333;}
-#menu a[class*="fa-"]{  background: #fff; width: 25px; height: 25px; display: inline-block; line-height: 25px; text-align: center;}
+#menu a[class*="fa-"]{  /*ackground: #fff;*/ width: 25px; height: 25px; display: inline-block; line-height: 25px; text-align: center;}
 #menu a[class*="fa-"]:hover{ background: #333;}
 #menu p{ padding-top:10px; display:block; }
 #menu #recentpostselect{ margin-bottom: 25px;}
