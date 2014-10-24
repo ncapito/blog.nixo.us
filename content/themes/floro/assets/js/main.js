@@ -101,36 +101,23 @@ $(document).ready(function(){
     //4.RSS Loader
     ///////////////////////////////////////////////////////////////////////////
 
-
-    var MyRSSURL = ''; // http://myblog.com/rss
-    var MyPoststoLoad = '6';//Number of posts to load
-
-
-
-
-    /*if(MyRSSURL.length==0){
-        MyRSSURL = document.location.protocol + "//" +  Vurl[2]+'/rss';
-    };*/
-    var Autourl = document.location.toString();
-    var Vurl = Autourl.split("/");
-    var url = document.location.protocol + "//" +  Vurl[2] + '/';
-    var getUrl = url + 'rss/?json=true'
+    var MyRSSURL = 'https://nixo.us/rss';
+    var MyPoststoLoad = '6';
 
     $.ajax({
         type: "GET",
-        url: getUrl,
-        //document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=2.0&num='+MyPoststoLoad+'&callback=?&q=' + encodeURIComponent(MyRSSURL),
+        url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num='+MyPoststoLoad+'&callback=?&q=' + encodeURIComponent(MyRSSURL),
         dataType: 'json',
         error: function(){
             alert('Unable to load feed, Incorrect path or invalid feed');
         },
         success: function(xml){
-            var postlist = xml.items || []; //xml.responseData.feed.entries;
+            var postlist = xml.responseData.feed.entries;
             var html= '';
             var htmlselect= '';
             $.each(postlist, function(idx, data) {
-                html += '<h2 class="post-title"><a href="' + data.url +'">'+data.title+'</a></h2>';
-                htmlselect +='<option value="'+ data.url +'">'+data.title+'</option>'
+                html += '<h2 class="post-title"><a href="'+data.link+'">'+data.title+'</a></h2>';
+                htmlselect +='<option value="'+data.link+'">'+data.title+'</option>'
             });
             $('#recentpost').append(html);
             $('#recentpostselect').append(htmlselect);
@@ -181,7 +168,7 @@ $(document).ready(function(){
     //9. Google Analytics
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    var MyGoogleAnalyticsID = 'UA-48827699-1';
+    var MyGoogleAnalyticsID = 'UA-56063910-1';
     var MyBlogURL = 'nixo.us';
 
 
@@ -193,6 +180,19 @@ $(document).ready(function(){
     ga('create', MyGoogleAnalyticsID, MyBlogURL);
     ga('send', 'pageview');
 
+
+
+
+
+
+
+
+    //-------------------------------------------------------------------------
+
+    /*load color template*/
+    $(".fa-bookmark").each(function(){
+        $(this).css('color',$(this).data('color'));
+    })
 
 });//end document.ready
 
