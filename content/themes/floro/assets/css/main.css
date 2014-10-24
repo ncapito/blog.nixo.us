@@ -59,9 +59,9 @@ Number. Description Block
 @import url(font-awesome.min.css);
 
 /*custom fonts from google fonts*/
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
+@import url(//fonts.googleapis.com/css?family=Oswald);
+@import url(//fonts.googleapis.com/css?family=Droid+Serif);
+@import url(//fonts.googleapis.com/css?family=PT+Sans+Caption);
 *[class*='fa-']:before{ font-family:'FontAwesome' !important;}
 *[class*='fa-']{
     transition:all 0.3s;
@@ -453,6 +453,17 @@ input:focus, textarea:focus,select:focus{ border:1px solid #3cb0ec;}
 /* custom nick */
 img[src$='#cover-image'] {
     display: none;
+}
+-#menu h4 a.homeLink{
+-    color: white;
+-    background: transparent;
+-    padding-bottom: 0;
+#menu h4 a.homeLink{
+    color: white;
+    background: transparent;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
 }
 
 /*==========================================================================
