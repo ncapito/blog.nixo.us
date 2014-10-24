@@ -437,6 +437,7 @@ article { position: relative; overflow: hidden;}
 h1 *,h2 *,h3 *,h4 *,h5 *,h6 *,h1,h2,h3,h4,h5,h6, ul > li:before, ul > li > ul > li:before, ol > li:before, #menu a[class*="fa-"],a, a:hover,#menu a[class*="fa-"]:hover
 {color:#3cb0ec; }
 
+#menu a[class*="fa-"], a, a:hover, #menu a[class*="fa-"]:hover {color:#fff; }
 /*Backgroud selection color*/
 ::-moz-selection, ::-webkit-selection, ::selection
 {background:#3cb0ec ;}
