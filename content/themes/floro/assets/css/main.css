@@ -42,7 +42,7 @@ Number. Description Block
 17.Error Page
 18.Media Queries
 19.Colors
-
+20.Donate Paypal
 
 
 ==========================================================================*/
@@ -59,9 +59,9 @@ Number. Description Block
 @import url(font-awesome.min.css);
 
 /*custom fonts from google fonts*/
-@import url(//fonts.googleapis.com/css?family=Oswald);
-@import url(//fonts.googleapis.com/css?family=Droid+Serif);
-@import url(//fonts.googleapis.com/css?family=PT+Sans+Caption);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
 *[class*='fa-']:before{ font-family:'FontAwesome' !important;}
 *[class*='fa-']{
     transition:all 0.3s;
@@ -223,7 +223,7 @@ select{ width: 100%;}
 
 .home-template .post .post-header{ margin-bottom: 33px !important;}
 .home-template .post iframe{ height: 200px !important; }
-.archive-template .post-excerpt, .home-template .post-excerpt{ padding: 0 48px;}
+.archive-template .post-excerpt, .home-template .post-excerpt, .tag-template .post-excerpt{ padding: 0 48px;}
 
 
 
@@ -289,7 +289,8 @@ article { position: relative; overflow: hidden;}
 .post-footer p{ padding-left: 50px;  position: relative; color: #fff; font-size: 0.9rem; line-height: 1.4rem; margin-bottom: 30px;}
 .post-footer:after{content:' '; clear: both; display: block; position: relative;}
 .post-footer a[class*='fa-']{ display: inline-block; width: 34px; height: 34px;float: left; background: #7e7e7e; text-align: center; line-height: 34px; color: #333; margin-right: 5px;}
-.post-footer a[class*='fa-']:hover{ background: #fff;}
+
+
 
 
 
@@ -424,8 +425,6 @@ article { position: relative; overflow: hidden;}
     .post, .galcolumn,.pagination { margin: 0 !important; }
     .galcolumn{ padding:0 !important; width: 100% !important;}
     .error-code{ font-size: 10rem;}
-    /*colorpicker*/
-    #colorpicker{ display:none;}
 
 }
 
@@ -443,7 +442,7 @@ h1 *,h2 *,h3 *,h4 *,h5 *,h6 *,h1,h2,h3,h4,h5,h6, ul > li:before, ul > li > ul > 
 {background:#3cb0ec ;}
 
 /*Background color*/
-.button:hover, .post.featured:before, #menu,.sharepost *[class*='fa-']:hover
+.button:hover, .post.featured:before, .post-footer a[class*='fa-']:hover, #menu
 {background:#3cb0ec ;}
 
 /*Borders*/
@@ -451,16 +450,17 @@ blockquote{ border-left: 2px solid #3cb0ec; border-right: 2px solid #3cb0ec; }
 input:focus, textarea:focus,select:focus{ border:1px solid #3cb0ec;}
 #disqus_thread, .post{ border-bottom: 15px solid #3cb0ec; }
 
-
 /* custom nick */
 img[src$='#cover-image'] {
     display: none;
 }
 
-#menu h4 a.homeLink{
-    color: white;
-    background: transparent;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    padding-left: 10px;
-}
+/*==========================================================================
+    20.Donate Paypal
+==========================================================================*/
+
+.donatebutton{ display: block; text-align: center; clear: both; padding: 10px 0 5px 0;}
+.donatebutton *{ margin: 0;}
+.donatebutton h3{ display: inline-block; color: #333333; font-size: 1.3rem; transform:translateY(-8px); }
+.donatebutton h3 strong{ color:#333333; margin:0;  font-size: 1.3rem;}
+.donatebutton img, .donatebutton input{  border:0; width: auto; display: inline-block; }
