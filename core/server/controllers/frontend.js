@@ -439,6 +439,7 @@ frontendControllers = {
         // Initialize RSS
         var pageParam = req.params.page !== undefined ? parseInt(req.params.page, 10) : 1,
             slugParam = req.params.slug,
+            json = req.query.json !== undefined,
             baseUrl = config.paths.subdir;
 
         if (isTag()) {
@@ -494,14 +495,17 @@ frontendControllers = {
                     }
                 }
 
-                feed = new RSS({
+                feed = {
                     title: title,
                     description: description,
                     generator: 'Ghost ' + trimmedVersion,
                     feed_url: feedUrl,
                     site_url: siteUrl,
                     ttl: '60'
-                });
+                };
+                if(!json){
+                    feed = new RSS(feed);
+                }
 
                 // If page is greater than number of pages we have, redirect to last page
                 if (pageParam > maxPage) {
@@ -567,11 +571,22 @@ frontendControllers = {
                         });
 
                         item.description = htmlContent.html();
-                        feed.item(item);
+                        if(json){
+                            feed.items = feed.items || [];
+                            feed.items.push(item);
+                        }else{
+                            feed.item(item);
+                        }
                     });
                 }).then(function () {
-                    res.set('Content-Type', 'application/rss+xml; charset=UTF-8');
-                    res.send(feed.xml());
+                  var  contentType='application/json';
+                    if(!json){
+                        contentType = 'application/rss+xml; charset=UTF-8';
+                        feed = feed.xml();
+                    }
+
+                    res.set('Content-Type',  contentType);
+                    res.send(feed);
                 });
             });
         }).catch(handleError(next));
