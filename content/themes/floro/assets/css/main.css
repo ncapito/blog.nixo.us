@@ -247,7 +247,7 @@ select{ width: 100%;}
     14.Pagination
 ==========================================================================*/
 
-.pagination{ text-align: center; padding: 20px 0; background: #333;  margin: 50px auto; margin-bottom: 0; display: block; position:relative; z-index: 999;}
+.pagination{ text-align: center; padding: 20px 0; background: #333; margin-bottom: 0; display: block; position:relative; z-index: 999;}
 .pagination>*{color:#fff;}
 .pagination .older-posts{ padding-left: 20px;}
 .pagination .newer-posts{ padding-right: 20px;}
@@ -344,7 +344,7 @@ article { position: relative; overflow: hidden;}
     .post-footer{ max-width: 718px;}
 
     /*Menu position and animation effects*/
-    #menu{ width: 205px;  z-index: 100; padding:40px; height: 100%;  position: fixed; top: 0; left:-205px; margin-left: -40px; z-index: 990;
+    #menu{ width: 250px;  z-index: 100; padding:40px; height: 100%;  position: fixed; top: 0; left:-250px; margin-left: -40px; z-index: 990;
         transition:all 0.4s 0s ;
         -webkit-transition:all 0.4s 0s ;
     }
@@ -363,7 +363,7 @@ article { position: relative; overflow: hidden;}
 
 
     /*Gridalicious position and animation*/
-    .gridalicious{margin-left: 60px; margin-top: 50px;margin-right: 31px; min-height: 80%;
+    .gridalicious{margin-left: 60px; margin-top: 10px;margin-right: 31px; min-height: 80%;
         transform-origin:100% 50%; transition:all 0.5s 0.4s cubic-bezier(0.020, 0.020, 0.000, 1.000);
         -webkit-transform-origin:100% 50%; -webkit-transition:all 0.5s 0.4s cubic-bezier(0.020, 0.020, 0.000, 1.000);
     }
@@ -456,10 +456,10 @@ input:focus, textarea:focus,select:focus{ border:1px solid #3cb0ec;}
 img[src$='#cover-image'] {
     display: none;
 }
--#menu h4 a.homeLink{
--    color: white;
--    background: transparent;
--    padding-bottom: 0;
+#menu h4 a.homeLink{
+    color: white;
+    background: transparent;
+    padding-bottom: 0;
 #menu h4 a.homeLink{
     color: white;
     background: transparent;
